@@ -1,0 +1,183 @@
+@charset "ISO-8859-1";
+
+.nav-item:hover{
+	background-color: gray;
+}
+.title-admin{
+	text-shadow: 5px 5px 10px gray;
+}
+
+#block-home{
+	background-image: url('https://by.com.vn/zultHY');
+	background-color: gray;
+	z-index: 10;
+}
+
+#block-window {
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+	opacity: 0.7;
+}
+
+#window-del-employee{
+	background-color: gray;
+	border-radius: 10px;
+	position: fixed;
+	color: white;
+	top: 50%;
+	left:30%;
+	width: 500px;
+	height: 120px;
+	z-index: 100;	
+}
+
+#window-del-product {
+	background-color: gray;
+	border-radius: 10px;
+	position: fixed;
+	top: 50%;
+	left:30%;
+	width: 500px;
+	height: 150px;
+	z-index: 100;
+}
+
+#product-del-succes, #employee-del-success{
+	background-color: gray;
+	border-radius: 10px;
+	position: fixed;
+	top: 50%;
+	left:30%;
+	width: 500px;
+	height: 120px;
+	z-index: 100;
+}
+
+#window-change-password {
+	background-color: gray;
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	width: 500px;
+	height: 300px;
+	z-index: 100;
+	color: white;
+	text-align: center;
+	border-radius: 50px;
+	box-shadow: 20px 20px 50px black;
+}
+
+#window-change-password input {
+	border-radius: 50px;
+}
+
+#window-change-password tr {
+	text-align: left;
+}
+
+#window-change-succes {
+	background-color: gray;
+	position: fixed;
+	top: 40%;
+	left: 30%;
+	width: 500px;
+	height: 150px;
+	z-index: 100;
+	color: white;
+	text-align: center;
+	border-radius: 50px;
+	box-shadow: 20px 20px 50px black;
+}
+#window-create-area{
+	background-color: gray;
+	position: fixed;
+	top: 40%;
+	left: 30%;
+	width: 500px;
+	height: 150px;
+	z-index: 100;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 20px 20px 50px black;
+}
+
+#btn-close{
+	background-color: green;
+	box-shadow: 10px 10px 20px white;
+}
+#btn-close:hover{
+	background-color: purple;
+	box-shadow: 10px 10px 20px black;
+}
+
+.btn-add{
+	border:none;
+	border-radius: 10px;
+	background-color: green;
+	color: white;
+	box-shadow: 2px 2px 5px gray;
+	padding: 8px 10px 8px 10px;
+	display: block;
+}
+
+.btn-add:hover{
+	background-color: gray;
+	color: aqua;
+	box-shadow: 2px 2px 10px aqua;
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+#btn-success{
+	display: block;
+	margin: auto;
+	box-shadow: 3px 3px 10px white;
+}
+#btn-success:hover{
+	color: white;
+	background-color: navy;
+	box-shadow: 3px 3px 10px aqua;
+}
+
+#myTable, #myTable-product, #tableSalary, #tableSales{
+	box-shadow: 5px 5px 15px gray;
+}
+#btn-show-sales, #btn-show-salary{
+	box-shadow: 2px 2px 8px black;
+	border: none;
+	border-radius: 5px;
+}
+#btn-show-sales:hover, #btn-show-salary:hover {
+	box-shadow: 2px 2px 8px aqua;
+	color: aqua;
+	background-color: gray;
+}
+
+#btn-hidden-sales, #btn-hidden-salary{
+	box-shadow: 2px 2px 8px black;
+	border: none;
+	border-radius: 5px;
+	color:white;
+	background-color: gray;
+}
+#btn-hidden-sales:hover, #btn-hidden-salary:hover{
+	box-shadow: 2px 2px 8px red;
+	color: red;
+}
+
+@media ( min-width : 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
